@@ -1,4 +1,4 @@
-# Showcase — Entry/Mid-Level Portfolio Hub
+# Showcase
 
 Showcase is a minimal, static landing page that links to my main backend-focused projects.  
 It is designed as a clean, single entry point for recruiters and interviewers.
