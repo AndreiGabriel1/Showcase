@@ -1,35 +1,45 @@
-# Showcase — Portofoliu Proiecte
+# Showcase — Entry/Mid-Level Portfolio Hub
 
-Această pagină prezintă într-un mod organizat proiectele principale pe care le-am construit:
-EventFlow, BuildTracker și AFrameHub. Fiecare proiect are un rol clar și acoperă zone diferite dintr-un ecosistem full-stack modern.
-
-## Proiecte incluse
-
-- **EventFlow** — sistem complet de gestionare a evenimentelor (căutare, filtre, pagini detaliu, slug-uri, URL-sync)
-- **BuildTracker** — gestionarea materialelor de construcții, operațiuni CRUD, validare și structură pregătită pentru integrare cu o bază de date
-- **AFrameHub** — galerie modernă pentru modele A-Frame, pagini detaliu și sistem de recenzii extensibil
+Showcase is a minimal, static landing page that links to my main backend-focused projects.  
+It is designed as a clean, single entry point for recruiters and interviewers.
 
 ---
 
-## Arhitectură și decizii
+## Features
 
-- Pagina este statică și se încarcă foarte rapid; poate fi hostată pe orice platformă (GitHub Pages, Vercel etc.)
-- Design minimal și clar, realizat cu Bootstrap și un stylesheet custom pentru ajustări fine
-- Carduri responsiv, aliniate corect pe orice dimensiune de ecran
-- Fiecare card direcționează direct către repository-ul proiectului, pentru acces rapid
-
----
-
-## Journal tehnic (rezumat)
-
-- Am creat o prezentare unificată pentru principalele proiecte, pentru a facilita accesul rapid al recrutorilor și colaboratorilor
-- Am păstrat intenționat un design simplu pentru a menține atenția pe proiecte, nu pe pagina de prezentare
-- Layout-ul este optimizat pentru claritate vizuală și pentru o experiență consistentă pe toate dispozitivele
+- Clean overview of highlighted projects
+- Direct links to individual repositories (EventFlow, BuildTracker, AFrameHub)
+- Responsive layout using Bootstrap
+- Simple, static structure that can be served from any static host
 
 ---
 
-## Detalii suplimentare
+## Tech & Structure
 
-- Pagina funcționează complet standalone (fără backend)
-- Poate servi drept pagină de portofoliu sau punct de plecare pentru un site personal
-- Implementată în HTML, CSS și Bootstrap, fără dependențe suplimentare
+- Built with: **HTML**, **Bootstrap 5**, custom CSS
+- No backend, no build step, no framework overhead
+
+### Basic structure:
+
+```
+index.html
+public/
+css/
+style.css
+img/
+```
+---
+
+## Usage
+
+- Open `index.html` directly in a browser, or  
+- Serve the folder with any static file server (for example: `npx serve`, Nginx, etc.)
+
+---
+
+## Architect’s Log
+
+- The page is intentionally minimal: its purpose is to highlight the projects, not to be a complex app itself.
+- Layout and copy are focused on clarity at first glance: title, short description, then direct links to repositories.
+- No JavaScript or extra frameworks are used to keep the page fast, portable, and easy to reason about in an interview.
+- The structure leaves room for future enhancements (sections for experience, skills, case studies) without changing the core layout.
